@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    padding: 3%;
+    border-radius: 20px;
+    background-color: rgb(186, 206, 227);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+}
+#Enviar{
+    width: 60px;
+    height: 30px;
+}

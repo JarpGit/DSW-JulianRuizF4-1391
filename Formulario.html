@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel='stylesheet' href="css/estilo.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Responda las siguientes preguntas sobre CSS Grid</h1>
+        <form name="Formulario_CSS_Grid">
+            <h3>1. ¿Qué es CSS Grid?</h3>
+
+                <input type="radio" name="r1" value="a"> a. Una tecnología de diseño web que permite la creación de diseños en cuadrícula. <br>
+                <input type="radio" name="r1" value="b"> b. Una forma de animación CSS. <br>
+                <input type="radio" name="r1" value="c"> c. Una forma de codificación en lenguaje HTML.<br>
+
+            <h3>2. ¿Cuál de las siguientes propiedades se utiliza para definir el tamaño de una fila o columna en CSS Grid?</h3>
+
+                <input type="radio" name="r2" value="a"> a.  grid-gap<br>
+                <input type="radio" name="r2" value="b"> b. grid-template-columns<br>
+                <input type="radio" name="r2" value="c"> c. grid-row-gap<br>
+
+            <h3>3. ¿Cómo se posiciona un elemento en una celda específica de la cuadrícula en CSS Grid?</h3>
+
+                <input type="radio" name="r3" value="a"> a. Utilizando la propiedad grid-row y grid-column.<br>
+                <input type="radio" name="r3" value="b"> b. Utilizando la propiedad grid-area.<br>
+                <input type="radio" name="r3" value="c"> c. Utilizando la propiedad justify-content y align-items.<br>
+
+            <h3>4. ¿Cómo se hace un elemento que ocupa más de una celda en CSS Grid?</h3>
+
+                <input type="radio" name="r4" value="a"> a. Utilizando la propiedad grid-row y grid-column.<br>
+                <input type="radio" name="r4" value="b"> b. Utilizando la propiedad grid-area.<br>
+                <input type="radio" name="r4" value="c"> c. Utilizando la propiedad justify-content y align-items.<br>
+
+            <h3>5. ¿Cómo se puede crear un diseño responsivo en CSS Grid?</h3>
+
+                <input type="radio" name="r5" value="a"> a. Utilizando la unidad de medida em.<br>
+                <input type="radio" name="r5" value="b"> b. Utilizando la propiedad grid-template-rows.<br>
+                <input type="radio" name="r5" value="c"> c. Utilizando la función @media para definir estilos diferentes para diferentes tamaños de pantalla.<br><br>
+            <input id="Enviar" type="button" value="Enviar" onclick="ProcesarRespuestas()">
+        </form>
+        <br>
+        <br>
+        <h1 id="resultado"></h1>
+    </main>
+    <script src="js/Script.js"></script>
+</body>
+</html>
